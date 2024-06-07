@@ -1,6 +1,8 @@
 module github.com/sagernet/sing-box
 
-go 1.20
+go 1.22.3
+
+replace github.com/sagernet/reality => github.com/foyer6057/memory v0.0.3
 
 require (
 	berty.tech/go-libtor v1.0.385
